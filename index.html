@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/js/node_modules/dat.gui/build/dat.gui.min.js"></script>
+    <script src="./assets/js/node_modules/socket.io/client-dist/socket.io.min.js"></script>
+</head>
+<body>
+    <canvas class="webgl"></canvas>
+    <script type="importmap">
+		{
+			"imports": {
+				"three": "./assets/js/node_modules/three/build/three.module.js",
+				"three/addons": "./assets/js/node_modules/three/examples/jsm"
+			}
+		}
+	</script>
+    <script type="module" src="./assets/js/main.js"></script>
+</body>
+</html>
